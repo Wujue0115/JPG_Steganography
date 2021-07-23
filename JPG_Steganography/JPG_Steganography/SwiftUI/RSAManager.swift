@@ -18,6 +18,12 @@ struct Keycontent: Identifiable {
     var sEmbedKey = String()
 }
 
+
+
+
 class ContentStore : ObservableObject{
-    @Published var Keycontents = [Keycontent]()
+    // @Published var Keycontents = [Keycontent]()
+    
+    @Published var Keycontents = [Contact]()
 }
+
